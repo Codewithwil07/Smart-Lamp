@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unknown-property */
 import React, { useEffect, useState } from 'react';
-import io from 'socket.io'
 
 const Time = () => {
     const [startHour, setstartHour] = useState(0);
